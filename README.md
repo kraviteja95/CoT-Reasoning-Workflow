@@ -36,7 +36,7 @@ The workflow consists of four major steps:
 - The input question is tokenized and prepared for the model.
 - No explicit CoT prompting is provided.
 
-### 2. Decoding Strategy
+### 2. Alternative Decoding Strategy
 
 #### 2.1. Standard Decoding vs. CoT Decoding
 - Standard Decoding (e.g., greedy decoding) chooses the most likely next token at every step.
