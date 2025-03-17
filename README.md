@@ -42,29 +42,30 @@ The workflow consists of four major steps:
 - Standard Decoding (e.g., greedy decoding) chooses the most likely next token at every step.
 - This technique instead alters decoding to investigate alternative reasoning routes by sampling top-k tokens at every step.
 
-#### 2.2 Generating Multiple Reasoning Paths
+#### 2.2. Generating Multiple Reasoning Paths
 - The model generates multiple sequences by allowing exploration of different paths.
 - This helps uncover implicit CoT reasoning.
 
 ### 3. Confidence Evaluation
 
-#### 3.1 Scoring Generated Paths
+#### 3.1. Scoring Generated Paths
 - Each sequence is given a confidence score depending on probability distribution.
 - More confident paths typically have higher-quality CoT reasoning.
 
-#### 3.2 Filtering Low-Confidence Paths
+#### 3.2. Filtering Low-Confidence Paths
 - Reject paths of low confidence.
 - Keep paths that have structured reasoning and logical consistency.
 
 ### 4.Final Answer Selection
 
-#### 4.1 Selecting the Best Path
+#### 4.1. Selecting the Best Path
 - The path with the highest confidence is chosen.
 - The final response is created based on this path.
 
-#### 4.2 Output Generation
+#### 4.2. Output Generation
 - The selected/chosen response is formatted and output to the user.
 - Example Output Format: `A: [CoT reasoning steps] -> [Final Answer]`
+
 ## Conclusion
 - This workflow shows one way to elicit Chain-of-Thought reasoning by changing the decoding procedure instead of through explicit prompting. 
 - By venturing down many possible reasoning pathways and choosing the best one, the model is able to produce formal, rational answers without needing hand-tuned prompt engineering.
