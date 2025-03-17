@@ -56,7 +56,7 @@ The workflow consists of four major steps:
 - Reject paths of low confidence.
 - Keep paths that have structured reasoning and logical consistency.
 
-### 4.Final Answer Selection
+### 4. Final Answer Selection
 
 #### 4.1. Selecting the Best Path
 - The path with the highest confidence is chosen.
