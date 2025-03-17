@@ -71,4 +71,4 @@ The workflow consists of four major steps:
 - By venturing down many possible reasoning pathways and choosing the best one, the model is able to produce formal, rational answers without needing hand-tuned prompt engineering.
 
 ## Reference (in APA 7 format)
-Wang, X., & Zhou, D. (2024). Chain-of-thought reasoning without prompting. arXiv. https://arxiv.org/abs/2402.10200
+- Wang, X., & Zhou, D. (2024). Chain-of-thought reasoning without prompting. ***arXiv***. https://arxiv.org/abs/2402.10200
