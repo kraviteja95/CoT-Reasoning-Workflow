@@ -23,6 +23,8 @@
 ## Workflow Overview
 I have attached the workflow in the draw.io file. Please find the same to understand about it diagrammatically.
 
+![image](https://github.com/kraviteja95/CoT-Reasoning-Workflow/blob/main/Chain-of-Thought%20Reasoning%20Without%20Prompting_workflow.jpg)
+
 The workflow consists of four major steps: 
 ### 1. Input Processing
 
